@@ -4,7 +4,7 @@ createAutoComplete({ // Config object to passed to autocomplete
 		const imgSrc = movie.Poster === 'N/A' ? '' : movie.Poster;
 		return `
 		<img src="${imgSrc}"/>
-		${movie.Title}(${movie.Year})
+		${movie.Title} (${movie.Year})
 	`;
 	},
 	onOptionSelect(movie) {
