@@ -21,7 +21,7 @@ createAutoComplete({ // Config object to passed to autocomplete
 			}
 		});
 	
-		if (response.data.Error) {
+		if (response.data.Error) { // This Error property is specific to omdbapi
 			return [];
 		}
 	
