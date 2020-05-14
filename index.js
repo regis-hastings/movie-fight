@@ -47,6 +47,7 @@ let leftMovie;
 let rightMovie;
 
 const onMovieSelect = async (movie, summaryElement, side) => {
+
 	const response = await axios.get('http://www.omdbapi.com/', {
 		params: {
 			apikey: 'f1b0b3d1',
